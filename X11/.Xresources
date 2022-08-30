@@ -1,5 +1,5 @@
-*.foreground: #C6C6C6
-*.background: #1C1C1C
+*.foreground:  #C6C6C6
+*.background:  #1C1C1C
 *.cursorColor: #444444
 
 ! black 236 238
@@ -38,20 +38,4 @@ URxvt*scrollBar: false
 
 URxvt*saveLines: 5000
 
-URxvt*perl-ext-common: default,tabbedex
-
-URxvt*keysym.Control-Shift-N: perl:tabbedex:new_tab
-URxvt*keysym.Control-Shift-K: perl:tabbedex:next_tab
-URxvt*keysym.Control-Shift-J: perl:tabbedex:prev_tab
-
-URxvt*keysym.Control-Shift-R: perl:tabbedex:rename_tab
-URxvt*keysym.Control-Shift-H: perl:tabbedex:move_tab_left
-URxvt*keysym.Control-Shift-L: perl:tabbedex:move_tab_right
-
-URxvt*tabbedex.tabbar-fg: 209
-URxvt*tabbedex.tabbar-bg: 236
-URxvt*tabbedex.tab-fg: 110
-URxvt*tabbedex.tab-bg: 236
-
-URxvt*tabbedex.transparent: true
-URxvt*tabbedex.new-button: false
+!URxvt*font: xft:Inconsolata Nerd Font Mono:style=Medium:size=12:sizepixel:12:antialias=true

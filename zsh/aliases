@@ -1,0 +1,16 @@
+alias ll='ls -lah'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+alias cxsource='xrdb -merge ~/.config/X11/.Xresources'
+alias ls='ls --color'
+alias install='sudo pacman -S'
+alias po='shutdown now'
+alias reboot='sudo reboot'
+alias go='zathura ~/Downloads/network.pdf&'
+alias ubo='sudo mount /dev/sda4 /mnt/ubuntu'
+alias usb='sudo mount /dev/sdb1 /mnt/my_usb'
